@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="PT-br">
+
+<head>
+ <meta charset="utf-8">  
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Jogo da Forca</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    
+<section >
+
+   
+    
+    <div id="container-botões">
+        <img class="logo" src="file:///C:/Users/claudio/Desktop/jogodaforca/logoalura.png" >
+       
+        <button id="botão-inicia" type="submit">iniciar</button> 
+       
+        <button id="adiciona-palavra" type="submit" style="display:none;">Adicionar</button>
+     
+        <button id="botão-novo-jogo" type="reset" style="display:none;">Novo jogo</button>
+
+        <button id="botão-adiciona" type="submit">Adicionar palavras</button>
+        
+        <input tipe="text" id="nova-palavra" style="display:none;" pattern="[A-Za]+$">
+        </div>
+   
+       
+</section>
+<div id="container-canvas">
+    <canvas width="1200px"  height="800px" ></canvas>
+   
+</div>
+
+
+
+<script src="iniciar-jogo.js">  </script>
+<script src="palavra-secreta.js">  </script>
+<script src="desenhar-forca.js">  </script>
+
+
+</body>
+
+
+</html>
